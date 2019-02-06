@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/midtrans_payment"
+            android:text="Midtrans Dialog Payment"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/bank_transfer_bca"
+            android:layout_marginTop="9dp"
+            android:text="Bank Transfer BCA (VA)"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
