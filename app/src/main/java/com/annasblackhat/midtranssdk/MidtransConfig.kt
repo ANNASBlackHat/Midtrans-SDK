@@ -5,7 +5,7 @@ package com.annasblackhat.midtranssdk
  */
 class MidtransConfig {
     companion object {
-        const val CLIENT_KEY = "SB-Mid-client-JWtdAZk8ZnU_QEPm"
+        const val CLIENT_KEY = "SB-Mid-client"
         const val MERCHANT_URL = ""
     }
 }
